@@ -4,10 +4,8 @@
         <img src="./../assets/logo.png">
     </router-link>
     <el-menu
-      :default-active="activeIndex"
       class="el-menu-header"
       mode="horizontal"
-      @select="handleSelect"
       background-color="#404553"
       text-color="rgba(255,255,255,.7)"
       active-text-color="#FFFFFF">
